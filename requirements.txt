@@ -1,0 +1,11 @@
+# Navegar a tu proyecto
+cd Desktop/traductor-recetas
+
+# Ver qué archivos tienes
+ls
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Ejecutar la app
+streamlit run app.py
