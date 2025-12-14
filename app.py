@@ -25,7 +25,7 @@ cargar_estilo("style.css")
 # --- SEGURIDAD: CONEXIÓN A LA API ---
 try:
     if "GOOGLE_API_KEY" in st.secrets:
-        genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+        genai.configure(api_key=st.secrets["GOOGLE_API_KEY = "AIzaSyBCF3fBHrbJr3u0BGSD1pqa1F7nLvoQOks""])
     else:
         st.warning("⚠️ Configura tu API Key en los 'Secrets' de Streamlit para empezar.")
         st.stop()
